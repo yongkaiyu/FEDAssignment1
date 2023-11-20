@@ -74,7 +74,7 @@ nav #icon{ /* icon three lines */
         height: 100vh;
         background: rgb(0, 0, 0);
         top: 75px; 
-        left: 0; /* for transition */
+        left: -100%; /* for transition */
         text-align: center;
         transition: all .5s;
     }
@@ -94,5 +94,8 @@ nav #icon{ /* icon three lines */
         line-height: 55px;
         font-size: 28px;
         padding-left: 80%;
+    }
+    nav ul.show{
+        left: 0; /* when press the three lines, the dropdown of navigation will return */
     }
 }
