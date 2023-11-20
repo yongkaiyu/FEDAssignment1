@@ -9,7 +9,7 @@ body{
 }
 /* if wanna remove white line, any thing referred to height plus 5px */
 nav{ /* Background for header */
-    height: 70px;
+    height: 75px;
     width: 100%;
     background: rgb(141, 8, 8);
 }
