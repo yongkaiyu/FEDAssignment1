@@ -7,8 +7,9 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
-nav{
-    height: 75px;
+/* if wanna remove white line, any thing referred to height plus 5px */
+nav{ /* Background for header */
+    height: 65px;
     width: 100%;
     background: rgb(112, 3, 3)
 }
@@ -17,32 +18,32 @@ label.logo{ /* Logo */
     font-weight: bold;
     color: white;
     padding: 0 50px;
-    line-height: 75px;
+    line-height: 70px;
 }
 nav ul{ /* this is for the entire navigation selection */
     float: right;
     margin-right: 40px;
 }
-nav li{
+nav li{ /* Structure of Properties */
     display: inline-block;
     margin: 0 8px;
-    line-height: 75px;
+    line-height: 70px;
 }
-nav a{
+nav a{ /* Properties in header */
     color: white;
     font-size: 18px;
     text-transform: uppercase;
     padding: 7px 10px;
     font-weight: bold;
 }
-a.active,a:hover{
-    color: grey;
+a.active,a:hover{ /* When hover on */
+    color: rgb(155, 155, 155);
     transition: .5s;
 }
-nav #icon{
+nav #icon{ /* icon three lines */
     color:white;
     font-size: 30px;
-    line-height: 75px;
+    line-height: 70px;
     float: right;
     margin-right: 40px;
     cursor: pointer;
@@ -50,7 +51,7 @@ nav #icon{
 }
 @media (max-width: 1048px){
     label.logo{
-        font-size: 23px;
+        font-size: 25px;
         padding-left: 30px;
     }
     nav ul{
@@ -62,18 +63,17 @@ nav #icon{
 }
 @media (max-width:909px){
     label.logo{
-        font-size: 30px;
-        padding-left: 37%;
+        top: 10%;
     }
     nav #icon{
         display: block;
     }
-    nav ul{
+    nav ul{ /* properties for the outside the header */
         position: fixed;
         width: 100%;
         height: 100vh;
         background: rgb(21, 21, 21);
-        top: 80px;
+        top: 75px; 
         left: 0;
         text-align: center;
         transition: all .5s
@@ -88,6 +88,11 @@ nav #icon{
     }
     a.active,a:hover{
         border: none;
-        color: grey
+        color: rgb(155, 155, 155)
+    }
+    a.fas{
+        top: 55px;
+        font-size: 27px;
+        padding-left: 80%;
     }
 }
