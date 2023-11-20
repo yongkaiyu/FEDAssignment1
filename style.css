@@ -9,16 +9,16 @@ body{
 }
 /* if wanna remove white line, any thing referred to height plus 5px */
 nav{ /* Background for header */
-    height: 65px;
+    height: 70px;
     width: 100%;
-    background: rgb(112, 3, 3)
+    background: rgb(141, 8, 8);
 }
 label.logo{ /* Logo */
     font-size: 25px;
     font-weight: bold;
     color: white;
     padding: 0 50px;
-    line-height: 70px;
+    line-height: 75px;
 }
 nav ul{ /* this is for the entire navigation selection */
     float: right;
@@ -27,23 +27,23 @@ nav ul{ /* this is for the entire navigation selection */
 nav li{ /* Structure of Properties */
     display: inline-block;
     margin: 0 8px;
-    line-height: 70px;
+    line-height: 75px;
 }
 nav a{ /* Properties in header */
-    color: white;
+    color: rgba(255, 255, 255, 0.4);
     font-size: 18px;
     text-transform: uppercase;
     padding: 7px 10px;
     font-weight: bold;
 }
 a.active,a:hover{ /* When hover on */
-    color: rgb(155, 155, 155);
+    color: rgb(255, 255, 255);
     transition: .5s;
 }
 nav #icon{ /* icon three lines */
-    color:white;
+    color:rgba(255, 255, 255, 0.4);
     font-size: 30px;
-    line-height: 70px;
+    line-height: 75px;
     float: right;
     margin-right: 40px;
     cursor: pointer;
@@ -63,7 +63,7 @@ nav #icon{ /* icon three lines */
 }
 @media (max-width:909px){
     label.logo{
-        top: 10%;
+        line-height:78px;
     }
     nav #icon{
         display: block;
@@ -72,11 +72,11 @@ nav #icon{ /* icon three lines */
         position: fixed;
         width: 100%;
         height: 100vh;
-        background: rgb(21, 21, 21);
+        background: rgb(0, 0, 0);
         top: 75px; 
-        left: 0;
+        left: 0; /* for transition */
         text-align: center;
-        transition: all .5s
+        transition: all .5s;
     }
     nav li{
         display: block;
@@ -88,11 +88,11 @@ nav #icon{ /* icon three lines */
     }
     a.active,a:hover{
         border: none;
-        color: rgb(155, 155, 155)
+        color: rgb(255, 255, 255);
     }
     a.fas{
-        top: 55px;
-        font-size: 27px;
+        line-height: 55px;
+        font-size: 28px;
         padding-left: 80%;
     }
 }
