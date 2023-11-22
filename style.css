@@ -99,3 +99,21 @@ nav #icon{ /* icon three lines */
         left: 0; /* when press the three lines, the dropdown of navigation will return */
     }
 }
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1; /* this is so that my navigation header could be seen and not overlapped by th video */
+}
+@media (min-aspect-ratio: 16/9){
+    .back-video{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9){
+    .back-video{
+        width: auto;
+        height: 100%;
+    }
+}
