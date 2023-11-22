@@ -36,7 +36,7 @@ nav a{ /* Properties in header */
     padding: 7px 10px;
     font-weight: bold;
 }
-a.active,a:hover{ /* When hover on */
+a.active,a:hover{ /* When hover on or when already selected*/
     color: rgb(255, 255, 255);
     transition: .5s;
 }
