@@ -11,7 +11,7 @@ body{
 nav{ /* Background for header */
     height: 75px;
     width: 100%;
-    background: rgb(141, 8, 8);
+    background: rgb(141, 8, 8,0.55);
 }
 label.logo{ /* Logo */
     font-size: 25px;
