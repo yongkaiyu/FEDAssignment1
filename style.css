@@ -14,11 +14,12 @@ nav{ /* Background for header */
     background: rgb(141, 8, 8,0.55);
 }
 label.logo{ /* Logo */
-    font-size: 25px;
+    font-size: 50px;
     font-weight: bold;
     color: white;
-    padding: 0 50px;
-    line-height: 75px;
+    padding: 0 60px;
+    line-height: 85px;
+    font-family: 'Italianno', cursive;
 }
 nav ul{ /* this is for the entire navigation selection */
     float: right;
@@ -51,7 +52,7 @@ nav #icon{ /* icon three lines */
 }
 @media (max-width: 1048px){
     label.logo{
-        font-size: 25px;
+        font-size: 40px;
         padding-left: 30px;
     }
     nav ul{
@@ -61,9 +62,10 @@ nav #icon{ /* icon three lines */
         font-size: 17px;
     }
 }
+/* responsive slider for the navigation header */
 @media (max-width:909px){
     label.logo{
-        line-height:78px;
+        line-height: 88px;
     }
     nav #icon{
         display: block;
@@ -99,11 +101,12 @@ nav #icon{ /* icon three lines */
         left: 0; /* when press the three lines, the dropdown of navigation will return */
     }
 }
+/* for background video */
 .back-video{
     position: absolute;
     right: 0;
     bottom: 0;
-    z-index: -1; /* this is so that my navigation header could be seen and not overlapped by th video */
+    z-index: -1; /* this is so that my navigation header could be seen and not overlapped by the video */
 }
 @media (min-aspect-ratio: 16/9){
     .back-video{
@@ -116,4 +119,11 @@ nav #icon{ /* icon three lines */
         width: auto;
         height: 100%;
     }
+}
+.home-content{
+    font-size: 50px;
+    padding: 25px;
+    text-align:center;
+    color: white;
+    font-family: 'Italianno', cursive;
 }
