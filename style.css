@@ -5,7 +5,7 @@
     list-style: none;
 }
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Italiana', sans-serif;;
 }
 /* if wanna remove white line, any thing referred to height plus 5px */
 nav{ /* Background for header */
@@ -100,6 +100,10 @@ nav #icon{ /* icon three lines */
     nav ul.show{
         left: 0; /* when press the three lines, the dropdown of navigation will return */
     }
+    /* area for content */
+    .center-header h1{
+        font-size: 80px;
+    }
 }
 /* for background video */
 .back-video{
@@ -120,10 +124,18 @@ nav #icon{ /* icon three lines */
         height: 100%;
     }
 }
-.home-content{
+/*Quote*/
+.home-quote{
     font-size: 50px;
     padding: 25px;
-    text-align:center;
+    text-align: center;
+    color: white;
+    font-family: 'Italianno', cursive;
+}
+.center-header{
+    font-size: 100px;
+    padding: 25px;
+    text-align: center;
     color: white;
     font-family: 'Italianno', cursive;
 }
