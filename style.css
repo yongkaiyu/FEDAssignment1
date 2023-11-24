@@ -164,3 +164,47 @@ nav #icon{ /* icon three lines */
     color: rgb(255, 255, 255);
     transition: .5s;
 }
+/* Gallery Columns */
+.gallery-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0 20px;
+}
+.gallery-container .gallery-heading{
+    width: 50%;
+    padding-bottom: 50px;
+
+}
+.gallery-container .gallery-heading h3{
+    font-size:3em;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    border: 3px;
+}
+.gallery-container .gallery-box{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.gallery-container .gallery-box .gallery-col{
+    display:flex;
+    flex-direction:column;
+    width: 32.5%;
+}
+/* here to fix to size of img */
+.gallery-container .gallery-box .gallery-col img{
+    width: 100%;
+    padding-bottom: 15px;
+    border-radius: 5px;
+}
+@media only screen and (max-width: 769px){
+    .gallery-container .gallery-box{
+        flex-direction: column;
+    }
+    .gallery-container .gallery-box .gallery-col{
+        width: 100%
+    }
+}
