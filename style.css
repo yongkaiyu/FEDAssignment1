@@ -7,11 +7,10 @@
 body{
     font-family: 'Italiana', sans-serif;;
 }
-/* if wanna remove white line, any thing referred to height plus 5px */
 nav{ /* Background for header */
     height: 75px;
     width: 100%;
-    background: rgb(141, 8, 8,0.55);
+    background: rgb(141, 8, 8,0.95);
 }
 label.logo{ /* Logo */
     font-size: 50px;
@@ -116,6 +115,7 @@ nav #icon{ /* icon three lines */
     .back-video{
         width: 100%;
         height: auto;
+
     }
 }
 @media (max-aspect-ratio: 16/9){
@@ -129,13 +129,37 @@ nav #icon{ /* icon three lines */
     font-size: 50px;
     padding: 25px;
     text-align: center;
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: 'Italianno', cursive;
 }
 .center-header{
     font-size: 100px;
     padding: 25px;
     text-align: center;
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: 'Italianno', cursive;
+}
+.home-description{
+    padding: 50px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+.to-story-btn{
+    text-align: center;
+}
+.to-story-btn a{
+    width: 150px;
+    text-decoration: none;
+    display:inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    color: rgb(255, 255, 255,0.7);
+    font-weight: bold;
+    border: .5px solid white;
+    background-color:rgba(0, 0, 0, 0.8);
+}
+.to-story-btn a:hover{
+    color: rgb(255, 255, 255);
+    transition: .5s;
 }
