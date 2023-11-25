@@ -227,3 +227,79 @@ nav #icon{ /* icon three lines */
         width: 100%
     }
 }
+/* Story Page */
+.timeline{
+    position: relative;
+    max-width: 1200px;
+    margin: 100px auto;
+}
+.story-container{
+    padding: 10px 50px;
+    position: relative;
+    width: 41.6%;
+}
+.story-box{
+    padding: 20px 30px;
+    background-color: white;
+    position: relative;
+    border-radius: 6px;
+    font-size: 15px;
+    border: 3px solid black;
+}
+.left-con{
+    left: 0;
+}
+.right-con{
+    left: 50%;
+}
+.story-container img{
+    position: absolute;
+    width: 40px;
+    border-radius: 50%;
+    right: -20px;
+    top:32px;
+    z-index: 10;
+}
+.right-con img{
+    left: -20px;
+}
+.timeline::after{
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    top: 0;
+    left: 50%;
+    margin-left: -3px;
+    z-index: -1;
+}
+.story-box h2{
+    font-weight: 600;
+}
+.story-box small{
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.left-side-arrow{
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 28px;
+    z-index: 1;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid black;
+    right: -15px;
+}
+.right-side-arrow{
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 28px;
+    z-index: 1;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid black;
+    left: -15px;
+}
