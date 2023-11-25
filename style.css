@@ -124,8 +124,8 @@ nav #icon{ /* icon three lines */
         height: 100%;
     }
 }
-/*Quote*/
-.home-quote{
+/*Description and h1 Header*/
+.home-description{
     font-size: 50px;
     padding: 25px;
     text-align: center;
@@ -139,18 +139,19 @@ nav #icon{ /* icon three lines */
     color: rgb(255, 255, 255);
     font-family: 'Italianno', cursive;
 }
-/*Description & Buttons For Homepage*/
-.home-description{
-    padding: 50px;
+/*Quote & Buttons For Homepage*/
+.home-quote{
+    padding: 35px;
     font-size: 30px;
     text-align: center;
     color: white;
+    font-family: 'Italianno', cursive;
 }
 .to-story-btn{
     text-align: center;
 }
 .to-story-btn a{
-    width: 150px;
+    width: 200px;
     text-decoration: none;
     display:inline-block;
     margin: 0 10px;
@@ -161,6 +162,24 @@ nav #icon{ /* icon three lines */
     background-color:rgba(0, 0, 0, 0.8);
 }
 .to-story-btn a:hover{
+    color: rgb(255, 255, 255);
+    transition: .5s;
+}
+.sweet-years-btn{
+    text-align: center;
+}
+.sweet-years-btn a{
+    width: 300px;
+    text-decoration: none;
+    display:inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    color: rgb(255, 255, 255,0.7);
+    font-weight: bold;
+    border: .5px solid white;
+    background-color:rgba(0, 0, 0, 0.8);
+}
+.sweet-years-btn a:hover{
     color: rgb(255, 255, 255);
     transition: .5s;
 }
@@ -182,7 +201,7 @@ nav #icon{ /* icon three lines */
     font-size:3em;
     font-weight: bolder;
     padding-bottom: 10px;
-    border: 3px;
+    border-bottom: 3px solid black;
 }
 .gallery-container .gallery-box{
     display:flex;
