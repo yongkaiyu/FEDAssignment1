@@ -385,3 +385,53 @@ nav #icon{ /* icon three lines */
     border-right: 15px solid black;
     left: -15px;
 }
+@media screen and (max-width: 1250px) {
+    .timeline{
+        margin: 50px auto;
+    } 
+    .timeline::after{
+        left: 31px;
+    }
+    .story-container{
+        width: 90%;
+        padding-left: 80px;
+        padding-right: 25px;
+    }
+    .story-box{
+        font-size: 13px;
+    }
+    .story-box small{
+        margin-bottom:10px;
+    }
+    .right-con{
+        left: 0;
+    }
+    .left-con img{
+        left: 10px;
+    }
+    .right-con img{
+        left: 10px;
+    }
+    .left-side-arrow {
+        border-right: 15px solid black;
+        border-left: 0;
+        left: -15px;
+    }
+    .right-side-arrow {
+        border-right: 15px solid black;
+        border-left: 0;
+        left: -15px;
+    }
+    @media screen and (max-width: 810px){
+        .story-container{
+            width: 86%;
+            padding-left: 80px;
+            padding-right: 25px;
+        }
+    }
+    @media screen and (max-width: 585px){
+        .story-container{
+            width: 80%;
+        }
+    }
+}
