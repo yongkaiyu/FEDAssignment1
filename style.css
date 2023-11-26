@@ -210,6 +210,45 @@ nav #icon{ /* icon three lines */
         filter:brightness(0.9);
     }
 }
+@media (max-width: 1000px){
+    .image-btn a{
+        width: 190px;
+    }
+    .image-btn-1{
+        background: url(contents/home-img-7.jpg);
+        background-size:cover;
+        filter:brightness(0.9);
+    }
+    .image-btn-2{
+        background: url(contents/home-img-8.jpg);
+        background-size: cover;
+        filter:brightness(0.9);
+    }
+    .image-btn-3{
+        background: url(contents/home-img-9.jpg);
+        background-size: cover;
+        filter:brightness(0.9);
+    }
+}
+@media (max-width: 660px){
+    .image-btn a{
+        width: 80%;
+        padding: 40px 0;
+        margin-bottom: 10px;
+    }
+    .image-btn-1{
+        background: rgb(0, 0, 0,0.6);
+        background-size:cover;
+    }
+    .image-btn-2{
+        background: rgb(0, 0, 0,0.6);
+        background-size: cover;
+    }
+    .image-btn-3{
+        background: rgb(0, 0, 0,0.6);
+        background-size: cover;
+    }
+}
 /* Gallery Columns */
 .gallery-container{
     display: flex;
