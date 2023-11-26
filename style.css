@@ -153,26 +153,43 @@ nav #icon{ /* icon three lines */
     color: rgb(255, 255, 255);
     font-family: 'Italianno', cursive;
 }
-/*Quote & Buttons For Homepage*/
+/*Image Link For Homepage*/
 .image-btn{
     text-align: center;
 }
 .image-btn a{
-    width: 200px;
+    font-size: 20px;
+    width: 415px;
     text-decoration: none;
+    text-transform: uppercase;
     display:inline-block;
     margin: 0 10px;
-    padding: 12px 0;
-    color: rgb(255, 255, 255,0.7);
-    font-weight: bold;
+    padding: 150px 0;
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: bolder;
     border: .5px solid white;
-    background-color:rgba(0, 0, 0, 0.8);
+    background-color:rgba(0, 0, 0, 0.4);
+    border-radius: 6px;
 }
 .image-btn a:hover{
     color: rgb(255, 255, 255);
     transition: .5s;
 }
-
+.image-btn-1{
+    background: url(contents/home-img-1.jpg);
+    background-size:cover;
+    filter:brightness(0.9);
+}
+.image-btn-2{
+    background: url(contents/home-img-2.jpg);
+    background-size: cover;
+    filter:brightness(0.9);
+}
+.image-btn-3{
+    background: url(contents/home-img-3.jpg);
+    background-size: cover;
+    filter:brightness(0.9);
+}
 /* Gallery Columns */
 .gallery-container{
     display: flex;
