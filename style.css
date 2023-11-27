@@ -245,7 +245,7 @@ nav #icon{ /* icon three lines */
         background-size: cover;
     }
     .image-btn-3{
-        background: rgb(0, 0, 0,0.6);
+        background: url(contents/home-img-12.jpg);
         background-size: cover;
     }
 }
@@ -259,7 +259,7 @@ nav #icon{ /* icon three lines */
         background-size: cover;
     }
     .image-btn-3{
-        background: rgb(0, 0, 0,0.6);
+        background: url(contents/home-img-15.jpg);
         background-size: cover;
     }
 }
