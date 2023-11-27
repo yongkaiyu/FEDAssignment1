@@ -241,7 +241,21 @@ nav #icon{ /* icon three lines */
         background-size:cover;
     }
     .image-btn-2{
+        background: url(contents/home-img-11.jpg);
+        background-size: cover;
+    }
+    .image-btn-3{
         background: rgb(0, 0, 0,0.6);
+        background-size: cover;
+    }
+}
+@media (max-width: 484px){
+    .image-btn-1{
+        background: rgb(0, 0, 0,0.6);
+        background-size:cover;
+    }
+    .image-btn-2{
+        background: url(contents/home-img-14.jpg);
         background-size: cover;
     }
     .image-btn-3{
