@@ -237,7 +237,7 @@ nav #icon{ /* icon three lines */
         margin-bottom: 10px;
     }
     .image-btn-1{
-        background: rgb(0, 0, 0,0.6);
+        background: url(contents/home-img-10.jpg);
         background-size:cover;
     }
     .image-btn-2{
@@ -251,7 +251,7 @@ nav #icon{ /* icon three lines */
 }
 @media (max-width: 484px){
     .image-btn-1{
-        background: rgb(0, 0, 0,0.6);
+        background: url(contents/home-img-13.jpg);
         background-size:cover;
     }
     .image-btn-2{
