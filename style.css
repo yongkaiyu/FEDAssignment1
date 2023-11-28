@@ -314,8 +314,18 @@ nav #icon{ /* icon three lines */
 /* Story Page */
 .story-header{
     text-align: center;
-    font-size: 40px;
     margin: 40px 20px 0 20px;
+}
+.story-header h3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0 20px;
+    padding-bottom: 30px;
+    border-bottom: 3px solid black;
+    font-size: 3em;
 }
 .timeline{
     position: relative;
@@ -340,64 +350,64 @@ nav #icon{ /* icon three lines */
     }
 }
 .story-container:nth-child(1){
-    animation-delay: 0.75s
+    animation-delay: 0.4s
 }
 .story-container:nth-child(2){
-    animation-delay: 1.5s
+    animation-delay: 0.8s
 }
 .story-container:nth-child(3){
-    animation-delay: 2.25s
+    animation-delay: 1.2s
 }
 .story-container:nth-child(4){
-    animation-delay: 3s
+    animation-delay: 1.6s
 }
 .story-container:nth-child(5){
-    animation-delay: 3.75s
+    animation-delay: 2s
 }
 .story-container:nth-child(6){
-    animation-delay: 4.5s
+    animation-delay: 2.4s
 }
 .story-container:nth-child(7){
-    animation-delay: 5.25s
+    animation-delay: 2.8s
 }
 .story-container:nth-child(8){
-    animation-delay: 6s
+    animation-delay: 3.2s
 }
 .story-container:nth-child(9){
-    animation-delay: 6.75s
+    animation-delay: 3.6s
 }
 .story-container:nth-child(10){
-    animation-delay: 7.5s
+    animation-delay: 4s
 }
 .story-container:nth-child(11){
-    animation-delay: 8.25s
+    animation-delay: 4.4s
 }
 .story-container:nth-child(12){
-    animation-delay: 9s
+    animation-delay: 4.8s
 }
 .story-container:nth-child(13){
-    animation-delay: 9.75s
+    animation-delay: 5.2s
 }
 .story-container:nth-child(14){
-    animation-delay: 10.5s
+    animation-delay: 5.6s
 }
 .story-container:nth-child(15){
-    animation-delay: 11.25s
+    animation-delay: 6s
 }
 .story-container:nth-child(16){
-    animation-delay: 12s
+    animation-delay: 6.4s
 }
 .story-container:nth-child(17){
-    animation-delay: 12.75s
+    animation-delay: 6.8s
 }
 .story-container:nth-child(18){
-    animation-delay: 13.5s
+    animation-delay: 7.2s
 }
 .story-container:nth-child(19){
-    animation-delay: 14.25s
+    animation-delay: 7.6s
 }
 .story-container:nth-child(20){
-    animation-delay: 15s
+    animation-delay: 8s
 }
 .story-box{
     padding: 20px 30px;
@@ -435,7 +445,7 @@ nav #icon{ /* icon three lines */
     left: 50%;
     margin-left: -3px;
     z-index: -1;
-    animation: moveline 7s linear forwards;
+    animation: moveline 8s linear forwards;
 }
 @keyframes moveline {
     0%{
