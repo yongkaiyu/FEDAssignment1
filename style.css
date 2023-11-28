@@ -217,6 +217,7 @@ nav #icon{ /* icon three lines */
 @media (max-width: 1000px){
     .image-btn a{
         width: 190px;
+        font-size: 15px;
     }
     .image-btn-1{
         background: url(contents/home-img-7.jpg);
