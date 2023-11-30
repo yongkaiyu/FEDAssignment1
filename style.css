@@ -540,8 +540,8 @@ nav #icon{ /* icon three lines */
 /* Football Page */
 .football-header{
     text-align: center;
-    padding: 22.5%;
-    margin: 40px 10px 10px 10px;
+    padding-bottom: 22.5%;
+    margin: 450px 10px 10px 10px;
 
 }
 .football-header h2{
@@ -558,7 +558,7 @@ nav #icon{ /* icon three lines */
     margin: 0;
     width: 100%;
 }
-.football-container{
+.footballers-container{
     display: flex;
     width: 90vw;
 }
@@ -618,9 +618,14 @@ nav #icon{ /* icon three lines */
 }
 
 @media (max-width: 1300px){
-    .football-container{
+    .footballers-container{
         display: flex;
         flex-direction: column;
         height: 80vh; 
+    }
+    .football-header{
+        padding-top: 22.5%;
+        padding-bottom: 20.5%;
+        margin: 40px 10px 10px 10px;
     }
 }
