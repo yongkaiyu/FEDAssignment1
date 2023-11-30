@@ -613,12 +613,4 @@ nav #icon{ /* icon three lines */
         flex-direction: column;
         height: 80vh; 
     }
-
-    .panel h3{
-        font-size: 16px;
-    }
-
-    .panel p{
-        font-size: 12px;
-    }
 }
