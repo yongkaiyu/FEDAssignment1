@@ -649,3 +649,10 @@ nav #icon{ /* icon three lines */
         height: 100%;
     }
 }
+.football-stats{
+    background: url(contents/maldinitrophies.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50vh;
+}
