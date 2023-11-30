@@ -13,6 +13,7 @@ nav{ /* Background for header */
     height: 75px;
     width: 100%;
     background-color: rgb(141, 8, 8,1);
+    z-index: 10000 /* must always overlap content */
 }
 label.logo{ /* Logo */
     font-size: 50px;
@@ -147,6 +148,9 @@ nav #icon{ /* icon three lines */
     text-align: center;
     color: rgb(255, 255, 255);
     font-family: 'Italianno', cursive;
+}
+.home-description{
+    padding-top: 100px; /* to push down content so that the description wont be overlapped by navigation bar */
 }
 .center-header{
     font-size: 100px;
@@ -288,6 +292,7 @@ nav #icon{ /* icon three lines */
     font-weight: bolder;
     padding-bottom: 10px;
     border-bottom: 3px solid black;
+    padding-top: 100px; /* to push down content so that content wont be overlapped by navigation bar */
 }
 .gallery-container .gallery-box{
     display:flex;
@@ -325,6 +330,7 @@ nav #icon{ /* icon three lines */
     align-items: center;
     text-align: center;
     margin: 40px 20px 0 20px;
+    padding-top: 100px;
     padding-bottom: 30px;
     font-size: 3em;
 }
