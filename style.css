@@ -111,15 +111,6 @@ nav #icon{ /* icon three lines */
     .center-header h1{
         font-size: 80px;
     }
-    .home-description h3{
-        padding-top: 60px;
-    }
-    .gallery-container .gallery-heading{
-        padding-top: 60px;
-    }
-    .story-header{
-        padding-top: 70px;
-    }
 }
 /* for background video */
 .back-video{
