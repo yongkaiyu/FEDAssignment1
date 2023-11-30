@@ -3,6 +3,7 @@
     margin: 0;
     text-decoration: none;
     list-style: none;
+    box-sizing: border-box;
 }
 body{
     font-family: 'Italiana', sans-serif;;
@@ -539,3 +540,60 @@ nav #icon{ /* icon three lines */
     }
 }
 /* Football Page */
+.football-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    overflow: hidden;
+    margin: 0;
+    width: 100%;
+}
+.football-container{
+    display: flex;
+    width: 90vw;
+}
+.panel{
+    height: 50vh;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    flex: 0.5;
+    margin: 10px;
+    position: relative;
+    transition: flex 0.7s ease-in;
+    display: flex;
+    flex-direction: column;
+}
+.view{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    visibility: hidden;
+}
+
+.panel h3{
+    font-size: 24px;
+    opacity: 0;
+}
+
+.panel p{
+    font-size: 16px;
+    opacity: 0;
+}
+/* when active */
+.panel.active{
+    flex: 5;
+}
+.panel.active h3{
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
+}
+
+.panel.active p{
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
+}
+.panel.active .view{
+    visibility: visible;
+}
