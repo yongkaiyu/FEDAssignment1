@@ -539,6 +539,17 @@ nav #icon{ /* icon three lines */
     }
 }
 /* Football Page */
+.football-header{
+    text-align: center;
+    padding: 22.5%;
+    margin: 40px 10px 10px 10px;
+
+}
+.football-header h2{
+    display: block;
+    text-align: center;
+    color: white;
+}
 .footballers-body{
     display: flex;
     align-items: center;
