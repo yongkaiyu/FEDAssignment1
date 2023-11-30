@@ -636,3 +636,16 @@ nav #icon{ /* icon three lines */
         margin: 40px 10px 10px 10px;
     }
 }
+@media (min-aspect-ratio: 16/9){
+    .footballers-body{
+        width: 100%;
+        height: auto;
+
+    }
+}
+@media (max-aspect-ratio: 16/9){
+    .footballers-body{
+        width: auto;
+        height: 100%;
+    }
+}
