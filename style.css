@@ -8,6 +8,8 @@ body{
     font-family: 'Italiana', sans-serif;;
 }
 nav{ /* Background for header */
+    position: fixed;
+    top: 0;
     height: 75px;
     width: 100%;
     background-color: rgb(141, 8, 8,1);
