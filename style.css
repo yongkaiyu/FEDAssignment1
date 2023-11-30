@@ -541,7 +541,7 @@ nav #icon{ /* icon three lines */
 .football-header{
     text-align: center;
     padding-bottom: 22.5%;
-    margin: 450px 10px 10px 10px;
+    margin: 450px 10px 97px 10px;
 
 }
 .football-header h2{
@@ -558,7 +558,7 @@ nav #icon{ /* icon three lines */
     margin: 0;
     width: 100%;
     /* background img */
-    background: url(contents/footballback1.jpg);
+    background: black;
     background-size:cover;
     background-repeat: no-repeat;
     width: 100%;
