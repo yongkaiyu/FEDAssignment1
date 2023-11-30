@@ -126,7 +126,7 @@ nav #icon{ /* icon three lines */
     background-repeat: no-repeat;
     width: 100%;
     height: 100vh;
-    z-index: -1;
+    z-index: -10;
 }
 @media (min-aspect-ratio: 16/9){
     .back-video{
@@ -566,6 +566,12 @@ nav #icon{ /* icon three lines */
     overflow: hidden;
     margin: 0;
     width: 100%;
+    background: url(contents/footballback1.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    z-index: -10;
 }
 .footballers-container{
     display: flex;
