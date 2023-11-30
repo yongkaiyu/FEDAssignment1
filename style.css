@@ -119,15 +119,6 @@ nav #icon{ /* icon three lines */
     bottom: 0;
     z-index: -1; /* this is so that my navigation header could be seen and not overlapped by the video */
 }
-/* background images */
-.expandable-cards{
-    background: url(contents/footballback1.jpg);
-    background-size:cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100vh;
-    z-index: -10;
-}
 @media (min-aspect-ratio: 16/9){
     .back-video{
         width: 100%;
@@ -566,6 +557,7 @@ nav #icon{ /* icon three lines */
     overflow: hidden;
     margin: 0;
     width: 100%;
+    /* background img */
     background: url(contents/footballback1.jpg);
     background-size:cover;
     background-repeat: no-repeat;
