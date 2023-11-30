@@ -539,3 +539,6 @@ nav #icon{ /* icon three lines */
     }
 }
 /* Football Page */
+.panel.active{
+    background: url(contents/football1.jpg);
+}
