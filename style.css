@@ -650,6 +650,8 @@ nav #icon{ /* icon three lines */
         height: 100%;
     }
 }
+
+
 .football-total{
     background: url(contents/maldinitotal.jpg);
     background-size:cover;
@@ -657,4 +659,42 @@ nav #icon{ /* icon three lines */
     background-position: center;
     width: 100%;
     height: 100vh;
+}
+.total-wrapper{
+    border: 1px solid black;
+    position: absolute;
+    width: 80vw;
+    transform: translate(-50%, -50%);
+    top: 180%;
+    left: 50%;
+    display: flex;
+}
+.total-container{
+    width: 28vmin;
+    height: 28vmin;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 1em 0;
+    position: relative;
+    font-size: 16px;
+    border-radius: 10px;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-bottom: 10px solid rgb(141,8,8);
+}
+span.num{
+    color:white;
+    display: grid;
+    place-items: center;
+    font-weight: 600;
+    font-size: 3em;
+}
+span.text{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1em;
+    text-align: center;
+    pad: 0.7em 0;
+    font-weight: 400;
+    line-height: 0;
 }
