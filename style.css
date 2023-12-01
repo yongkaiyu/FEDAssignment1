@@ -665,7 +665,7 @@ nav #icon{ /* icon three lines */
     position: absolute;
     width: 80vw;
     transform: translate(-50%, -50%);
-    top: 170%;
+    top: 185%;
     left: 50%;
     display: flex;
     justify-content: space-around;
@@ -700,7 +700,7 @@ nav #icon{ /* icon three lines */
     position: absolute;
     width: 80vw;
     transform: translate(-50%, -50%);
-    top: 270%;
+    top: 285%;
     left: 50%;
     display: flex;
     justify-content: space-around;
@@ -725,8 +725,13 @@ span.text{
 @media screen and (max-width: 1024px){
     /* total section */
 
-    .total-wrapper, .ucl-wrapper{
+    .total-wrapper{
         width: 85vw;
+        top: 170%
+    }
+    .ucl-wrapper{
+        width: 85vw;
+        top: 270%
     }
 
     .total-container,.ucl-container{
