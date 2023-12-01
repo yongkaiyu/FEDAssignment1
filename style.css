@@ -661,7 +661,6 @@ nav #icon{ /* icon three lines */
     height: 100vh;
 }
 .total-wrapper{
-    border: 1px solid black;
     position: absolute;
     width: 80vw;
     transform: translate(-50%, -50%);
@@ -708,7 +707,7 @@ span.text{
     .total-container{
         height: 26vmin;
         width: 26vmin;
-        font-size: 12px;
+        font-size: 16px;
     }
 }
 @media screen and (max-width: 768px){
@@ -725,11 +724,11 @@ span.text{
 }
 @media screen and (max-width: 480px){
     .total-wrapper{
-        gap: 15px;
+        gap: 8px;
     }
     .total-container{
         width: 100%;
         height: 25vmin;
-        font-size: 8px;
+        font-size: 10px;
     }
 }
