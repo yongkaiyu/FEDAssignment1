@@ -665,9 +665,11 @@ nav #icon{ /* icon three lines */
     position: absolute;
     width: 80vw;
     transform: translate(-50%, -50%);
-    top: 180%;
+    top: 170%;
     left: 50%;
     display: flex;
+    justify-content: space-around;
+    gap: 10px;
 }
 .total-container{
     width: 28vmin;
@@ -697,4 +699,37 @@ span.text{
     pad: 0.7em 0;
     font-weight: 400;
     line-height: 0;
+}
+@media screen and (max-width: 1024px){
+    .total-wrapper{
+        width: 85vw;
+    }
+
+    .total-container{
+        height: 26vmin;
+        width: 26vmin;
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 768px){
+    .total-wrapper{
+        width: 60vw;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    .total-container{
+        width: calc(50% -40px);
+        height: 30vmin;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 480px){
+    .total-wrapper{
+        gap: 15px;
+    }
+    .total-container{
+        width: 100%;
+        height: 25vmin;
+        font-size: 8px;
+    }
 }
