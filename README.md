@@ -79,3 +79,33 @@ After some changes here and there, I conclude to Home, Story, Football, Gallery,
     - (https://th.bing.com/th/id/R.4e26df4dd7cbf26294ec2631208c6138?rik=tPZ%2bzhdPwT2v0Q&riu=http%3a%2f%2fstatic.sportskeeda.com%2fwp-content%2fuploads%2f2013%2f10%2fpaolo-maldini-1383212445.jpg&ehk=mwAJI0A57XumiOsl9dvnllPU%2fMdsL6KJxkaAsroWdj8%3d&risl=&pid=ImgRaw&r=0)
   - gallery14
     - (https://th.bing.com/th/id/OIP.vlLyMk1YcLMJG75up9f61QHaJ5?rs=1&pid=ImgDetMain)
+  - circle-black
+    - (https://i.stack.imgur.com/Qwyqe.jpg)
+  - home-img-1
+    - (https://th.bing.com/th/id/OIP.z48dDP5d2IAzpWlMq1nCWQHaEg?rs=1&pid=ImgDetMain)
+  - home-img-2
+    - (https://th.bing.com/th/id/OIP.CW4etZ7WkiOAYhccMD6sRAHaE2?rs=1&pid=ImgDetMain)
+  - home-img-3
+    - (https://th.bing.com/th/id/OIP.2v7hrEh-YREa3EwTpfQ_WwHaEo?rs=1&pid=ImgDetMain)
+  - home-img-4
+    - (https://www.milanlive.it/wp-content/uploads/2019/10/paolo-maldini.jpg)
+  - home-img-5
+    - (https://s-media-cache-ak0.pinimg.com/736x/48/13/47/481347ad7aea4bfafd5e3df16587b5c8.jpg)
+  - home-img-6
+    - (https://data.nssmag.com/images/galleries/19514/download-1.jpg)
+  - home-img-7
+    - (https://www.milanlive.it/wp-content/uploads/2019/10/paolo-maldini.jpg)
+  - home-img-8
+    - (https://s-media-cache-ak0.pinimg.com/736x/48/13/47/481347ad7aea4bfafd5e3df16587b5c8.jpg)
+  - home-img-9
+    - (https://data.nssmag.com/images/galleries/19514/download-1.jpg)
+  - home-img-10
+    - (https://circulocentral.es/wp-content/uploads/2020/06/Paolo-Maldini-dorsal-3.jpg)
+  - home-img-11
+    - (https://th.bing.com/th/id/R.f2624c38aee9cf19afa6a7fad9250c70?rik=z%2bi6AFlPTWq%2fWg&riu=http%3a%2f%2flogos-download.com%2fwp-content%2fuploads%2f2016%2f05%2fAC_Milan_background_wallpaper-1920x1200.jpg&ehk=pdaGC%2fBsx4qhutP7IBN6wkUrGMkVN5bi%2b7eDl3SHWjI%3d&risl=&pid=ImgRaw&r=0)
+  - home-img-12
+    - (https://www.mondospesa.it/sites/mondospesa/files/ImmaginiLogo/SweetYearsLogo.jpg)
+  - home-img-13
+    - (https://circulocentral.es/wp-content/uploads/2020/06/Paolo-Maldini-dorsal-3.jpg)
+  - home-img-14
+    - (https://th.bing.com/th/id/R.f2624c38aee9cf19afa6a7fad9250c70?rik=z%2bi6AFlPTWq%2fWg&riu=http%3a%2f%2flogos-download.com%2fwp-content%2fuploads%2f2016%2f05%2fAC_Milan_background_wallpaper-1920x1200.jpg&ehk=pdaGC%2fBsx4qhutP7IBN6wkUrGMkVN5bi%2b7eDl3SHWjI%3d&risl=&pid=ImgRaw&r=0)
