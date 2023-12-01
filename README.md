@@ -48,7 +48,7 @@ After some changes here and there, I conclude to Home, Story, Football, Gallery,
 ## Credits
 
 ### Media
-- Video Background done by me, using clips from Rainbow Flick on YouTube
+- Homepage Video Background done by me, using clips from Rainbow Flick on YouTube
 [Link](https://www.youtube.com/watch?v=gGa57vTXjow)
 - Image Links
   - gallery1
@@ -109,3 +109,29 @@ After some changes here and there, I conclude to Home, Story, Football, Gallery,
     - (https://circulocentral.es/wp-content/uploads/2020/06/Paolo-Maldini-dorsal-3.jpg)
   - home-img-14
     - (https://th.bing.com/th/id/R.f2624c38aee9cf19afa6a7fad9250c70?rik=z%2bi6AFlPTWq%2fWg&riu=http%3a%2f%2flogos-download.com%2fwp-content%2fuploads%2f2016%2f05%2fAC_Milan_background_wallpaper-1920x1200.jpg&ehk=pdaGC%2fBsx4qhutP7IBN6wkUrGMkVN5bi%2b7eDl3SHWjI%3d&risl=&pid=ImgRaw&r=0)
+  - football1
+    - (https://th.bing.com/th/id/R.d737609b9d46d8d4cba6885186af00c2?rik=R3mklQK7LtlQnA&riu=http%3a%2f%2fwww.forza27.com%2fwp-content%2fuploads%2f2014%2f06%2fMaldini-Ronaldo.jpg&ehk=Ntjv6RcugwjoTXYetbqsuFjJcNC90WSVJsZUfOZ07ds%3d&risl=&pid=ImgRaw&r=0)
+  - football2
+    - (https://images.teamtalk.com/content/uploads/2017/03/22143139/Ferguson-Maldini.jpg)
+  - football3
+    - (https://prod.media.libero.pe/660x392/libero/imagen/2016/04/20/Noticia-156918-ronaldinho-maldini.jpg)
+  - football4
+    - (https://i.pinimg.com/originals/78/8e/67/788e670536a609389d4c072cd06913fb.jpg)
+  - football5
+    - (https://th.bing.com/th/id/OIP.xSakr-E7QA7s4lcifXVfcgHaGJ?rs=1&pid=ImgDetMain)
+  - maldinitotal
+    - (https://wallpapercave.com/wp/wp4061302.jpg)
+  - maldinitotal2
+    - (https://i.pinimg.com/originals/9e/78/f4/9e78f43261ff75badab22f1e42f928f6.jpg)
+  - maldiniucl
+    - (https://th.bing.com/th/id/R.0bd0a753c799e999d420ed621ca6204a?rik=KrKECUpid8I6Iw&riu=http%3a%2f%2fimages.performgroup.com%2fdi%2flibrary%2fgoal_uk%2f56%2f2a%2fpaolo-maldini-ac-milan-champions-league_s5e12qxajanb1lxqyf1oy4orb.jpg%3ft%3d-714224137&ehk=yMbAcfETiW3CUBAAojhOSRQy1VVZNRCkUfmF27CBTFs%3d&risl=&pid=ImgRaw&r=0)
+  - maldiniucl2
+    - (https://i.pinimg.com/originals/06/16/da/0616dac9fd21cdb308718c882f0316d1.jpg)
+  - maldiniseriea
+    - (https://i.pinimg.com/originals/07/c3/2d/07c32d0f6c21bbcbcde832abc076e693.jpg)
+  - maldiniseriea2
+    - (https://apps-cloud.n-tv.de/img/319307-1353182563000/o/1536/1536/RTR13RE0.jpg)
+  - maldinination
+    - (https://statics.sportskeeda.com/wp-content/uploads/2015/06/paolo-maldini-italy-1434793120-800.jpg)
+  - maldinination2
+    - (https://i.pinimg.com/originals/8c/17/b7/8c17b77b3cf45ca894fadca7fd1ed36d.jpg)
