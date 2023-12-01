@@ -793,7 +793,7 @@ span.text{
     }
     .total-wrapper,.seriea-wrapper,.ucl-wrapper{
         width: 60vw;
-        flex-wrap: wrap;
+        flex-wrap: wrap; /* needed so that it will flex wrap from 4 in line to 2 each in 2 rows then 1 row of 4. */
         gap: 15px;
     }
     .total-container,.seriea-wrapper,.ucl-container{
