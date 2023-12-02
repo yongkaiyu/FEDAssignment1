@@ -33,7 +33,9 @@ After some changes here and there, I conclude to Home, Story, Football, Gallery,
  - relevant font types that suit the person and who he is.
  - responsive timeline so that it is visually appealing.
  - expandable cards upon click to show content so that it is visually appealing with the reveal function used so that upon scroll it will nicely appear.
- - 
+ - reveal content upon scrolling animation.
+ - responsive gallery
+ - responsive storyline
  ### Left Out Possible Features
  - Footer for Social Media
  - Dropdown for Records by Maldini
