@@ -758,7 +758,6 @@ span.text{
     color: rgba(255, 255, 255, 0.8);
     font-size: 1em;
     text-align: center;
-    pad: 0.7em 0;
     font-weight: 400;
     line-height: 0;
 }
@@ -829,7 +828,7 @@ span.text{
         gap: 15px;
     }
     .total-container,.seriea-container,.ucl-container,.nation-container{
-        width: calc(50% -40px);
+        width: calc(50% - 40px);
         height: 30vmin;
         font-size: 20px;
     }
